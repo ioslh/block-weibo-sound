@@ -1,0 +1,11 @@
+{
+  "name": "Block weibo sound",
+  "description": "block weibo autoplayed sound after every video",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["https://weibo.com/*"],
+    "css": [],
+    "js": ["block.js"]
+  }]
+}
